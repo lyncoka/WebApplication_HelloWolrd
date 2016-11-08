@@ -11,6 +11,8 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <configuration>
                     <webXml>WebContent\WEB-INF\web.xml</webXml>
+                    <!-- 指定jsp等静态资源路径 -->
+                    <warSourceDirectory>WebContent</warSourceDirectory>
                 </configuration>
             </plugin>
         </plugins>
